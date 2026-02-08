@@ -4,7 +4,7 @@ import { useState } from "react";
 import Gameplay from "./components/Gameplay";
 
 const App = () => {
-  const [check, setcheck] = useState(true);
+  const [check, setcheck] = useState(false);
   const toggle = () => {
     setcheck((prev) => !prev);
   };
